@@ -1,0 +1,26 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.flex-item1{
+    max-width: 400;
+    flex-shrink: 1;
+}
+
+.flex-item2{
+    max-width: 600;
+    flex-grow: 0;
+
+}
+
+.flex-item3{
+    max-width: 300;
+    flex-grow: 1;
+
+}
+
+/*Fill webpage with pictures of different sizes
